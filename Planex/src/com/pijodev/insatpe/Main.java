@@ -8,16 +8,11 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.provider.Settings.System;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.SubMenu;
 import android.view.View;
@@ -307,12 +302,15 @@ public class Main extends Activity {
 						}
     				}
     			}
+    			
     			threadsCount = 1;
     			if(displayLoadingView) {
-    				if(gettingNextWeek || gettingPrevWeek)
+    				if(gettingNextWeek || gettingPrevWeek) {
     					mHandler.sendEmptyMessage(CLEAR_VIEW);
-    				else
+    				} else {
     					mHandler.sendEmptyMessage(CLEAR_VIEW);
+    				}
+    				
 	    			mHandler.sendEmptyMessage(LOADING);
     			}
     			
@@ -333,7 +331,7 @@ public class Main extends Activity {
     			// Show an alert message if the data comes from the cache
 				if(result.loadedFromCache) {
 					Message msg = new Message();
-					msg.obj = "Récupération des données mises en cache il y a " + result.we.getDateCacheToString();
+					msg.obj = "Rï¿½cupï¿½ration des donnï¿½es mises en cache il y a " + result.we.getDateCacheToString();
 					msg.what = MSG_ALERT;
 					mHandler.sendMessage(msg);
 				}
@@ -524,22 +522,22 @@ public class Main extends Activity {
 			AlertDialog.Builder adb = new Builder(this);
 			adb.setTitle("Bienvenu(e) dans Planex !");
 			adb.setMessage(
-					"Les nouveautés :\n" +
-						"\t-Cliquez pour afficher les détails\n" +
-						"\t-Esthétisme++;\n" +
-						"\t-Affichage dynamique des barres latérales\n" +
+					"Les nouveautï¿½s :\n" +
+						"\t-Cliquez pour afficher les dï¿½tails\n" +
+						"\t-Esthï¿½tisme++;\n" +
+						"\t-Affichage dynamique des barres latï¿½rales\n" +
 						"\t-Centrage automatique sur le jour actuel au lancement\n" +
-						"\t-Passez en mode paysage pour la vue globale (bêta)\n" +
-						"\t-Mise à jour de la liste des groupes 2013-2014\n" +
+						"\t-Passez en mode paysage pour la vue globale (bï¿½ta)\n" +
+						"\t-Mise ï¿½ jour de la liste des groupes 2013-2014\n" +
 						"\t-Improves performance and stability\n" +
 						"\t-Minor bug fixes...\n"+
 					"\n\n" +
 					"Remarques :\n\n" +
-					"\tNous déclinons toutes responsabilités face aux éventuelles" +
-					" mésaventures liées à une utilisation abusive du (performant)" +
-					" système de cache.\n" +
+					"\tNous dï¿½clinons toutes responsabilitï¿½s face aux ï¿½ventuelles" +
+					" mï¿½saventures liï¿½es ï¿½ une utilisation abusive du (performant)" +
+					" systï¿½me de cache.\n" +
 					"\tAvant de poursuivre, assurez-vous d'avoir mis" +
-					" 5 étoiles et un gentil commentaire sur le Play Store." +
+					" 5 ï¿½toiles et un gentil commentaire sur le Play Store." +
 					"\n\nEnjoy ! - Le Club Info de l'INSA de Toulouse");
 			adb.setNeutralButton("Let's go !", null);
 			adb.create().show();
