@@ -522,22 +522,22 @@ public class Main extends Activity {
 			AlertDialog.Builder adb = new Builder(this);
 			adb.setTitle("Bienvenu(e) dans Planex !");
 			adb.setMessage(
-					"Les nouveaut�s :\n" +
-						"\t-Cliquez pour afficher les d�tails\n" +
-						"\t-Esth�tisme++;\n" +
-						"\t-Affichage dynamique des barres lat�rales\n" +
+					"Les nouveautés :\n" +
+						"\t-Cliquez pour afficher les détails\n" +
+						"\t-Esthétisme++;\n" +
+						"\t-Affichage dynamique des barres latérales\n" +
 						"\t-Centrage automatique sur le jour actuel au lancement\n" +
-						"\t-Passez en mode paysage pour la vue globale (b�ta)\n" +
-						"\t-Mise � jour de la liste des groupes 2013-2014\n" +
+						"\t-Passez en mode paysage pour la vue globale (bêta)\n" +
+						"\t-Mise à jour de la liste des groupes 2013-2014\n" +
 						"\t-Improves performance and stability\n" +
 						"\t-Minor bug fixes...\n"+
 					"\n\n" +
 					"Remarques :\n\n" +
-					"\tNous d�clinons toutes responsabilit�s face aux �ventuelles" +
-					" m�saventures li�es � une utilisation abusive du (performant)" +
-					" syst�me de cache.\n" +
+					"\tNous déclinons toutes responsabilités face aux éventuelles" +
+					" mésaventures liées à une utilisation abusive du (performant)" +
+					" système de cache.\n" +
 					"\tAvant de poursuivre, assurez-vous d'avoir mis" +
-					" 5 �toiles et un gentil commentaire sur le Play Store." +
+					" 5 étoiles et un gentil commentaire sur le Play Store." +
 					"\n\nEnjoy ! - Le Club Info de l'INSA de Toulouse");
 			adb.setNeutralButton("Let's go !", null);
 			adb.create().show();
