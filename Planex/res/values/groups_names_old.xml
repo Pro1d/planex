@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--string-array name="group_name_1">
+		<item>A </item>
+		<item>B </item>
+		<item>C </item>
+		<item>D </item>
+		<item>E </item>
+		<item>F </item>
+		<item>FAS </item>
+		<item>G </item>
+		<item>H </item>
+		<item>I </item>
+		<item>J </item>
+		<item>K </item>
+		<item>M </item>
+		<item>N </item>
+		<item>S </item>
+		<item>Z </item>
+	</string-array>
+	<string-array name="group_name_2">
+		<item>IC A </item>
+		<item>IC B </item>
+		<item>IC C </item>
+		<item>IC D </item>
+		<item>IC E </item>
+		<item>IC FAS </item>
+		<item>ICBE AD </item>
+		<item>ICBE BE </item>
+		<item>ICBE CF </item>
+		<item>IM A  (1024) </item>
+		<item>IM A  (1549) </item>
+		<item>IM B  (1025) </item>
+		<item>IM B  (1550) </item>
+		<item>IM C  (1022) </item>
+		<item>IM C  (1551) </item>
+		<item>MIC A </item>
+		<item>MIC B </item>
+		<item>MIC C </item>
+		<item>MIC D </item>
+	</string-array>
+	<string-array name="group_name_3">
+		<item>IC A  (1321) </item>
+		<item>IC A  (1322) </item>
+		<item>IC B  (1324) </item>
+		<item>IC B  (1325) </item>
+		<item>IC C  (1327) </item>
+		<item>IC C  (1328) </item>
+		<item>IC D  (1330) </item>
+		<item>IC D  (1331) </item>
+		<item>IC E  (1335) </item>
+		<item>IC E  (1336) </item>
+		<item>IC F  (1339) </item>
+		<item>IC F  (1340) </item>
+		<item>AGC </item>
+		<item>ICBE A </item>
+		<item>ICBE B </item>
+		<item>ICBE C </item>
+		<item>ICBE D </item>
+		<item>IM A  (1170) </item>
+		<item>IM A  (1171) </item>
+		<item>IM B  (1173) </item>
+		<item>IM B  (1174) </item>
+		<item>IM C  (1176) </item>
+		<item>IM C  (1177) </item>
+		<item>IM D  (1179) </item>
+		<item>IM D  (1180) </item>
+		<item>IM E  (1494) </item>
+		<item>IM E  (1627) </item>
+		<item>IM OP  (997) </item>
+		<item>IM OP  (1261) </item>
+		<item>IM OP  (1289) </item>
+		<item>IM OP  (1290) </item>
+		<item>IM OP  (1384) </item>
+		<item>MIC A  (528) </item>
+		<item>MIC A  (531) </item>
+		<item>MIC B  (858) </item>
+		<item>MIC B  (1034) </item>
+		<item>MIC C  (1135) </item>
+		<item>MIC C  (1164) </item>
+		<item>MIC D  (1166) </item>
+		<item>MIC D  (1167) </item>
+		<item>MIC E  (498) </item>
+		<item>MIC E  (752) </item>
+		<item>MIC OP  (1356) </item>
+		<item>MIC OP  (1359) </item>
+		<item>MIC OP  (1775) </item>
+		<item>MIC OP  (1776) </item>
+	</string-array>
+	<string-array name="group_name_4">
+		<item>GBA A </item>
+		<item>GBA B </item>
+		<item>GC A </item>
+		<item>GC B </item>
+		<item>GC C </item>
+		<item>AGC </item>
+		<item>AE TP SE (1) </item>
+		<item>AE TP SE (2) </item>
+		<item>AE TP SE (3) </item>
+		<item>AE TP SE (4) </item>
+		<item>AE TP IS (1) </item>
+		<item>AE TP IS (2) </item>
+		<item>GM TP IS (1) </item>
+		<item>GM TP IS (2) </item>
+		<item>IR I TDA  (1720) </item>
+		<item>IR I TDA  (1721) </item>
+		<item>IR I TDB  (1722) </item>
+		<item>IR I TDB  (1723) </item>
+		<item>IR RT TDA  (1724) </item>
+		<item>IR RT TDA  (1725) </item>
+		<item>GM TPgr1 </item>
+		<item>GM TPgr2 </item>
+		<item>GM TPgr3 </item>
+		<item>GM TPgr4 </item>
+		<item>GM TPgr5 </item>
+		<item>GM TPgr6 </item>
+		<item>GM gr1 </item>
+		<item>GM gr2 </item>
+		<item>GM gr3 </item>
+		<item>GMM MMN </item>
+		<item>GMM MMS </item>
+		<item>GP (1) </item>
+		<item>GP (2) </item>
+		<item>GPE G1 </item>
+		<item>GPE G2 </item>
+		<item>GPE MM BE </item>
+		<item>GPE MM Ingé Territ </item>
+		<item>GPE MM Manag environ </item>
+		<item>GPE MM Recherche </item>
+		<item>GPE TP  (782) </item>
+		<item>GPE TP  (783) </item>
+		<item>GPE TP  (806) </item>
+	</string-array>
+	<string-array name="group_name_5">
+		<item>GBA biocatalyse </item>
+		<item>GBA bionano </item>
+		<item>GBA bioprocede </item>
+		<item>GBA bioseparation </item>
+		<item>GBA biosys </item>
+		<item>GBA microbiologie </item>
+		<item>GC CLIM </item>
+		<item>GC ING-BAT </item>
+		<item>GC TRAV-PUB ET OUV </item>
+		<item>GC URBAIN </item>
+		<item>AGC </item>
+		<item>GEI ESE (1) CAP </item>
+		<item>GEI ESE (2) CAP </item>
+		<item>GEI ESE MAS </item>
+		<item>GEI IL A  (377) </item>
+		<item>GEI IL A  (379) </item>
+		<item>GEI IL B  (380) </item>
+		<item>GEI IL B  (384) </item>
+		<item>GEI SDC A  (431) </item>
+		<item>GEI SDC A  (438) </item>
+		<item>GEI SDC B  (423) </item>
+		<item>GEI SDC B  (430) </item>
+		<item>GEI SEC A </item>
+		<item>GEI SEC B </item>
+		<item>GEI SEC C </item>
+		<item>GEI Min AA (1) </item>
+		<item>GEI Min AMRA (1) </item>
+		<item>GEI Min CAPT  (255) </item>
+		<item>GEI Min CAPT  (243) </item>
+		<item>GEI Min IDM </item>
+		<item>GEI Min PPC </item>
+		<item>GEI Min SECU  (789) </item>
+		<item>GEI Min SECU  (749) </item>
+		<item>GM Gr1 PE </item>
+		<item>GM Gr2 SN </item>
+		<item>GM Gr3 ID </item>
+		<item>GM TPgrA </item>
+		<item>GM TPgrB </item>
+		<item>GM TPgrC </item>
+		<item>GM TPgrD </item>
+		<item>GM TPgrE </item>
+		<item>IS  (105) </item>
+		<item>IS  (559) </item>
+		<item>GMM MMN </item>
+		<item>GMM MMS-IF </item>
+		<item>GMM MMS-SI </item>
+		<item>GP IP </item>
+		<item>GP IPTM </item>
+		<item>GP MNEMS </item>
+		<item>GP MNPA </item>
+		<item>GP NB </item>
+		<item>GP NC </item>
+		<item>GPE G1 UF1 ingénierie de l\'eau </item>
+		<item>GPE G1 UF4 énergie </item>
+		<item>GPE G2 UF2 pollution industrielle </item>
+		<item>GPE G2 UF5 procédés de séparation </item>
+		<item>GPE G3 UF3 contrôle, commande, optimisation </item>
+		<item>GPE G3 UF6 modélisation </item>
+		<item>GPE MM Bureau d\'études </item>
+		<item>GPE MM Ingénieur Territorial </item>
+		<item>GPE MM Management environnemental </item>
+		<item>GPE MM Recherche </item>
+		<item>GPE MT Dessalement </item>
+		<item>GPE MT Procédés énergétiques couplés </item>
+		<item>GPE MT Transports polyphasiques </item>
+	</string-array-->
+</resources>

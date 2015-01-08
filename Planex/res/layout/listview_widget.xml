@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F" >
+
+    <TextView
+        android:id="@+id/widget_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/widget_button_reload"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/widget_button_reload"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="2 MIC D Champions !"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="#FFF" />
+
+    <ImageButton
+        android:id="@+id/widget_button_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#0000"
+        android:src="@android:drawable/ic_menu_agenda" />
+
+    <ListView
+        android:id="@+id/widget_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/widget_title_tv" />
+
+    <TextView
+        android:id="@+id/widget_emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/widget_title_tv"
+        android:gravity="center"
+        android:text="Aucune donnée..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="gone" />
+
+</RelativeLayout>

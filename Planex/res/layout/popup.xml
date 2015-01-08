@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#0000"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <!--TextView
+         android:id="@+id/tv_popup_class"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:text="TD MATH Algèbre 2"
+			android:textSize="14sp"
+         android:textColor="#BBB"
+android:textStyle="bold"
+     	android:background="#0000" /-->
+
+     <TextView
+         android:id="@+id/tv_popup_date"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:background="#0000"
+         android:text="Date : Mardi 17 Septembre 2013"
+         android:textColor="#BBB"
+         android:textSize="14sp" />
+
+     <TextView
+         android:id="@+id/tv_popup_hour"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:text="Durée : 1H15 (11H00 - 12H15)"
+		android:textSize="14sp"
+        android:textColor="#BBB"
+     	android:background="#0000" />
+
+     <TextView
+         android:id="@+id/tv_popup_room"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:background="#0000"
+         android:text="Salle : Amphi 107 (60)"
+         android:textColor="#BBB"
+         android:textSize="14sp" />
+
+ </LinearLayout>

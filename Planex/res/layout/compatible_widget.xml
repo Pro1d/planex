@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:padding="@dimen/widget_margin"
+    android:background="#222" >
+
+    <TextView
+        android:id="@+id/widget_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/widget_button_reload"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/widget_button_reload"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Chargement"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="#FFF"
+        android:background="#282828" />
+
+    <ImageButton
+        android:id="@+id/widget_button_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#333"
+        android:padding="3dp"
+        android:src="@android:drawable/stat_sys_download_done" />
+
+	<LinearLayout
+	    android:id="@+id/widget_listlayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/widget_ll_btn"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/widget_title_tv"
+	    android:orientation="vertical" />
+	
+    <TextView
+        android:id="@+id/widget_emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/widget_ll_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/widget_title_tv"
+        android:gravity="center"
+        android:text="Aucune donnée..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="visible" />
+    
+	<FrameLayout
+	    android:id="@+id/widget_progressbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/widget_ll_btn"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/widget_title_tv"
+	    android:visibility="gone" >
+	        
+	    <ProgressBar
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"/>
+	    
+	</FrameLayout>
+	
+	<LinearLayout
+	    android:id="@+id/widget_ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#282828" >
+	    
+	    <ImageButton
+	        android:id="@+id/widget_button_prev"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.5"
+	        android:src="@android:drawable/arrow_up_float" />
+	
+	    <ImageButton
+	        android:id="@+id/widget_button_next"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.5"
+	        android:src="@android:drawable/arrow_down_float" />
+	</LinearLayout>
+	
+</RelativeLayout>

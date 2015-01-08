@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/panel_height"
+    android:background="@drawable/panel"
+    android:gravity="center_vertical"
+    android:minWidth="200dp"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    android:visibility="visible" >
+
+    <ImageButton
+        android:id="@+id/ib_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/prev"/><!-- "@android:drawable/ic_media_rew" --> 
+        
+    <Button
+        android:id="@+id/b_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="80dp"
+        android:text="@string/menu_groupe" >
+	</Button>
+    
+    <EditText
+        android:id="@+id/et_group_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="4"
+        android:hint="gid"
+        android:imeOptions="actionGo"
+        android:inputType="number"
+        android:maxEms="4"
+        android:maxLength="4"
+        android:minEms="4" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right" >
+	
+	    <TextView
+	        android:id="@+id/tv_week"
+	        android:visibility="gone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:text="Semaine 42"
+	        android:gravity="center"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"/>
+
+	    <ImageButton
+	        android:id="@+id/ib_current"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#0000"
+        	android:layout_marginRight="5dp"
+	        android:src="@drawable/orig"/><!-- "@android:drawable/ic_media_previous" -->
+	
+	    <ImageButton
+	        android:id="@+id/ib_next"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#0000"
+	        android:src="@drawable/next"/><!-- "@drawable/arrowright" -->
+
+    </LinearLayout>
+</LinearLayout>

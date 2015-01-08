@@ -1,0 +1,197 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+	<string-array name="group_name_1">
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>FAS</item>
+		<item>G</item>
+		<item>H</item>
+		<item>I</item>
+		<item>J</item>
+		<item>K</item>
+		<item>M</item>
+		<item>N</item>
+		<item>S</item>
+		<item>Z</item>
+	</string-array>
+	<string-array name="group_name_2">
+		<item>IC A</item>
+		<item>IC B</item>
+		<item>IC C</item>
+		<item>IC D</item>
+		<item>IC E</item>
+		<item>IC F</item>
+		<item>IC FAS</item>
+		<item>ICBE AD</item>
+		<item>ICBE BE</item>
+		<item>ICBE CF</item>
+		<item>IM A (1)</item>
+		<item>IM A (2)</item>
+		<item>IM B (1)</item>
+		<item>IM B (2)</item>
+		<item>IM C (1)</item>
+		<item>IM C (2)</item>
+		<item>IM D</item>
+		<item>MIC  A</item>
+		<item>MIC  B</item>
+		<item>MIC  C</item>
+		<item>MIC  D</item>
+	</string-array>
+	<string-array name="group_name_3">
+		<item>IC A (1)</item>
+		<item>IC A (2)</item>
+		<item>IC B (1)</item>
+		<item>IC B (2)</item>
+		<item>IC C (1)</item>
+		<item>IC C (2)</item>
+		<item>IC D (1)</item>
+		<item>IC D (2)</item>
+		<item>IC E (1)</item>
+		<item>IC E (2)</item>
+		<item>IC F (1)</item>
+		<item>IC F (2)</item>
+		<item>AGC</item>
+		<item>ICBE A</item>
+		<item>ICBE B</item>
+		<item>ICBE C</item>
+		<item>ICBE D</item>
+		<item>IM A (1)</item>
+		<item>IM A (2)</item>
+		<item>IM B (1)</item>
+		<item>IM B (2)</item>
+		<item>IM C (1)</item>
+		<item>IM C (2)</item>
+		<item>IM D (1)</item>
+		<item>IM D (2)</item>
+		<item>IM E (1)</item>
+		<item>IM E (2)</item>
+		<item>IM OP (1)</item>
+		<item>IM OP (2)</item>
+		<item>IM OP (3)</item>
+		<item>IM OP (4)</item>
+		<item>IM OP (5)</item>
+		<item>MIC A (1)</item>
+		<item>MIC A (2)</item>
+		<item>MIC B (1)</item>
+		<item>MIC B (2)</item>
+		<item>MIC C (1)</item>
+		<item>MIC C (2)</item>
+		<item>MIC D (1)</item>
+		<item>MIC D (2)</item>
+		<item>MIC E (1)</item>
+		<item>MIC E (2)</item>
+		<item>MIC OP (1)</item>
+		<item>MIC OP (2)</item>
+		<item>MIC OP (3)</item>
+		<item>MIC OP (4)</item>
+	</string-array>
+	<string-array name="group_name_4">
+		<item>GBA A</item>
+		<item>GBA B</item>
+		<item>GC A</item>
+		<item>GC B</item>
+		<item>GC C</item>
+		<item>AGC</item>
+		<item>AE TP SE 1</item>
+		<item>AE TP SE 2</item>
+		<item>AE TP SE 3</item>
+		<item>AE TP SE 4</item>
+		<item>AE TP IS 1</item>
+		<item>AE TP IS 2</item>
+		<item>GM TP IS 1</item>
+		<item>GM TP IS 2</item>
+		<item>IR I TDA (1)</item>
+		<item>IR I TDA (2)</item>
+		<item>IR I TDB (1)</item>
+		<item>IR I TDB (2)</item>
+		<item>IR RT TDA (1)</item>
+		<item>IR RT TDA (2)</item>
+		<item>GM TPgr1</item>
+		<item>GM TPgr2</item>
+		<item>GM TPgr3</item>
+		<item>GM TPgr4</item>
+		<item>GM TPgr5</item>
+		<item>GM TPgr6</item>
+		<item>GM gr1</item>
+		<item>GM gr2</item>
+		<item>GM gr3</item>
+		<item>GMM MMN</item>
+		<item>GMM MMS</item>
+		<item>GP 1</item>
+		<item>GP 2</item>
+		<item>GPE G1</item>
+		<item>GPE G2</item>
+		<item>GPE MM BE</item>
+		<item>GPE MM Ingé Territ</item>
+		<item>GPE MM Manag environ</item>
+		<item>GPE MM Recherche</item>
+		<item>GPE G2</item>
+		<item>GPE G3</item>
+		<item>GPE TP (1)</item>
+		<item>GPE TP (2)</item>
+		<item>GPE TP (3)</item>
+	</string-array>
+	<string-array name="group_name_5">
+		<item>GBA biocatalyse</item>
+		<item>GBA bionano</item>
+		<item>GBA bioprocede</item>
+		<item>GBA bioseparation</item>
+		<item>GBA biosys</item>
+		<item>GBA microbiologie</item>
+		<item>GC CLIM</item>
+		<item>GC ING-BAT</item>
+		<item>GC TRAV-PUB ET OUV</item>
+		<item>GC URBAIN</item>
+		<item>AGC</item>
+		<item>GEI ESE 1 CAP</item>
+		<item>GEI ESE 2 CAP</item>
+		<item>GEI ESE MAS</item>
+		<item>GEI IL A (1)</item>
+		<item>GEI IL A (2)</item>
+		<item>GEI IL B (1)</item>
+		<item>GEI IL B (2)</item>
+		<item>GEI SDC A (1)</item>
+		<item>GEI SDC A (2)</item>
+		<item>GEI SDC B (1)</item>
+		<item>GEI SDC B (2)</item>
+		<item>GEI SEC A</item>
+		<item>GEI SEC B</item>
+		<item>GEI SEC C</item>
+		<item>GM Gr1 PE</item>
+		<item>GM Gr2 SN</item>
+		<item>GM Gr3 ID</item>
+		<item>GM TPgrA</item>
+		<item>GM TPgrB</item>
+		<item>GM TPgrC</item>
+		<item>GM TPgrD</item>
+		<item>GM TPgrE</item>
+		<item>IS (1)</item>
+		<item>IS (2)</item>
+		<item>GMM MMN</item>
+		<item>GMM MMS-IF</item>
+		<item>GMM MMS-SI</item>
+		<item>GP IP</item>
+		<item>GP IPTM</item>
+		<item>GP MNEMS</item>
+		<item>GP MNPA</item>
+		<item>GP NB</item>
+		<item>GP NC</item>
+		<item>GPE G1 UF1</item>
+		<item>GPE G1 UF4</item>
+		<item>GPE G2 UF2</item>
+		<item>GPE G2 UF5</item>
+		<item>GPE G3 UF3</item>
+		<item>GPE G3 UF6</item>
+		<item>GPE MM Bureau d\'études</item>
+		<item>GPE MM Ingénieur Territorial</item>
+		<item>GPE MM Management environnemental</item>
+		<item>GPE MM Recherche</item>
+		<item>GPE MT Dessalement</item>
+		<item>GPE MT Procédés énergétiques couplés</item>
+		<item>GPE MT Transports polyphasiques</item>
+	</string-array>
+</resources>

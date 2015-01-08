@@ -1,0 +1,16 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="146dip"
+    android:minHeight="146dip"
+    android:updatePeriodMillis="0"
+    android:configure="com.pijodev.insatpe.widget.WidgetConfigure" 
+    android:previewImage="@drawable/planex"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialLayout="@layout/compatible_widget"
+    android:initialKeyguardLayout="@layout/compatible_widget">
+    <!-- Taille minimum = (nombre de cellules * 74dip) - 2 dip 
+    
+    android:updatePeriodMillis="0" => pas de mise à jour automatique
+    android:updatePeriodMillis="14400000" => mise à jour automatique toutes les 4 heures
+    -->
+</appwidget-provider>

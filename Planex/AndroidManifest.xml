@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pijodev.insatpe"
+    android:versionCode="3"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/planex"
+        android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        
+        <!-- Main application -->
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Configuration activity -->
+        <activity
+            android:name=".widget.WidgetConfigure"
+            android:label="Nouveau widget" android:enabled="true">
+            <intent-filter>
+                <!-- category android:name="android.intent.category.PREFERENCE" /-->
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
+        </activity>	
+        
+        <!-- Widget's declaration -->
+        <receiver
+            android:name=".widget.WidgetProvider" android:enabled="true">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data
+		        android:name="android.appwidget.provider"
+		        android:resource="@xml/widget_info" />
+		</receiver>
+		
+		<!-- Widget's service -->
+		<service android:name=".widget.WidgetService" android:enabled="true"/>
+    </application>
+
+</manifest>
+<!-- CHANGE LOG  1.1
+	-changement icone
+	-affichage des barres latérales au lancement
+	-positionnement du scroll sur le jour actuel
+	-ajout effet de transition pour le cas : top|left + show bar
+	-Normalisation Main.Mutex.class
+	-Ajout de l'option tryToReload à la fonction WeekEntriesCache.Cached => n'essaie pas de charger
+	la semaine depuis  ADE si l'option est désactivé
+	-Adaptation de la méthode WeekEntriesCache.LoadWeekEntry pour rendre possible une éventuelle interruption
+	-#ajout du long click au bouton "semaine préc." => retour à la semaine actuelle
+	-remplacement de code merdique par des constantes pour des dimension dans ScheduleView.class => todo :
+	utiliser les dimensions du fichier xml, idem dans les layout.xml
+	->ne pas remplacer (et mettre à jour l'affichage) le weekentries si il est identique à celui du cache 
+	-bouton current week
+	-message d'alerte lors de l'utilisaion du cache
+	-affichage dynamique des barres
+	
+	#graphisme
+	#utiliser les dimensions du fichier xml dans ScheduleView.class et dans les xml des layouts
+	#interrompre connection et chargement quand nouvelle semaine demandée
+ -->

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/ll_settings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/settings"/>
+	
+    <RelativeLayout
+        android:id="@+id/rl_main_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_settings"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+        
+	    <com.pijodev.insatpe.XYScrollView
+	        android:id="@+id/fl_week"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true" >
+	
+	        <LinearLayout
+	            android:id="@+id/ll_week"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:clickable="false"
+	            android:fadingEdge="horizontal|vertical"
+	            android:fadingEdgeLength="10dp"
+	            android:orientation="horizontal" >
+	
+	            <RelativeLayout
+	                android:id="@+id/rl_monday"
+	                android:layout_width="@dimen/column_width"
+	                android:layout_height="@dimen/column_height"
+	                android:layout_marginRight="@dimen/separator_width"
+	                android:background="#FFFFFFFF" >
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/rl_tuesday"
+	                android:layout_width="@dimen/column_width"
+	                android:layout_height="@dimen/column_height"
+	                android:layout_marginRight="@dimen/separator_width"
+	                android:background="#FFFFFFFF" >
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/rl_wednesday"
+	                android:layout_width="@dimen/column_width"
+	                android:layout_height="@dimen/column_height"
+	                android:layout_marginRight="@dimen/separator_width"
+	                android:background="#FFFFFFFF" >
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/rl_thursday"
+	                android:layout_width="@dimen/column_width"
+	                android:layout_height="@dimen/column_height"
+	                android:layout_marginRight="@dimen/separator_width"
+	                android:background="#FFFFFFFF" >
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/rl_friday"
+	                android:layout_width="@dimen/column_width"
+	                android:layout_height="@dimen/column_height"
+	                android:background="#FFFFFFFF" >
+	            </RelativeLayout>
+	        </LinearLayout>
+	    </com.pijodev.insatpe.XYScrollView>
+
+	    <ImageView
+	        android:id="@+id/iv_timing"
+	        android:layout_width="@dimen/hours_bar_width"
+	        android:layout_height="fill_parent"
+	        android:contentDescription="@string/hello" />
+	
+	    <LinearLayout
+	        android:id="@+id/ll_day"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/day_bar_height"
+	        android:background="#000" >
+
+<!-- "@drawable/day_bar" -->
+	
+	        <include
+	            android:id="@+id/ll_monday"
+	            layout="@layout/day" />
+	
+	        <include
+	            android:id="@+id/ll_tuesday"
+	            layout="@layout/day" />
+	
+	        <include
+	            android:id="@+id/ll_wednesday"
+	            layout="@layout/day" />
+	
+	        <include
+	            android:id="@+id/ll_thursday"
+	            layout="@layout/day" />
+	
+	        <include
+	            android:id="@+id/ll_friday"
+	            layout="@layout/day" />
+	    </LinearLayout>
+	
+	    <ToggleButton
+	        android:id="@+id/ib_settings"
+	        android:layout_width="@dimen/hours_bar_width"
+	        android:layout_height="@dimen/day_bar_height"
+	        android:background="@drawable/ic_toggle_bg"
+	        android:checked="false"
+	        android:contentDescription="@string/hello"
+	        android:gravity="center"
+	        android:src="@android:drawable/ic_menu_manage"
+	        android:textOff=" "
+	        android:textOn=" " />
+
+ 	</RelativeLayout>
+ 	
+</RelativeLayout>

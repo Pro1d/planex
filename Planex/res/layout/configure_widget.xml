@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sélection du groupe"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+	    <EditText
+	        android:id="@+id/configure_widget_id"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="4"
+	        android:hint="gid"
+	        android:imeOptions="actionGo"
+	        android:inputType="number"
+	        android:maxEms="4"
+	        android:maxLength="4"
+	        android:minEms="4" />
+	    <ImageButton
+	        android:id="@+id/configure_widget_showlist"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@android:drawable/ic_input_get"
+	        android:text="@string/menu_groupe" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom du widget"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/configure_widget_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom à afficher"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/configure_widget_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer" />
+
+</LinearLayout>

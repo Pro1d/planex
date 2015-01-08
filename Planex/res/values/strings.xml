@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Planex</string>
+    <string name="cache_version">2</string><!-- premier changement du format du cache (ajout de date de mise en cache) ; à augmenter pour chaque nouvelle version -->
+	<string name="menu_next">Semaine suivante</string>
+	<string name="menu_back">Semaine précédante</string>
+	<string name="menu_groupe">Choix du groupe</string>
+</resources>
