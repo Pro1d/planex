@@ -42,7 +42,7 @@ public class ExpandableListGroups  {
 		return mListGroupId[year][index];
 	}
 
-    /** Returns the index of the group and the year in function of the id or {-1, -1} in case of unknown id **/
+    /** Returns the index of the group and the year corresponding to the given id or {-1, -1} in case of unknown id **/
     public int[] getGroupIndex(int id) {
     	int grp[] = {-1,-1};
     	boolean found = false;
@@ -88,8 +88,8 @@ public class ExpandableListGroups  {
         for (int i = 0; i < 5; i++) {
             Map<String, String> curGroupMap = new HashMap<String, String>();
             groupData.add(curGroupMap);
-            curGroupMap.put(NAME, "" + (1+i) + (i==0 ? "ère" : "ème") + " année");
-            curGroupMap.put(IS_EVEN, "Année/PO");
+            curGroupMap.put(NAME, "" + (1+i) + (i==0 ? "ï¿½re" : "ï¿½me") + " annï¿½e");
+            curGroupMap.put(IS_EVEN, "Annï¿½e/PO");
             
             List<Map<String, String>> children = new ArrayList<Map<String, String>>();
 	        for (int j = 0; j < mListGroups[i].length; j++) {
@@ -145,7 +145,7 @@ public class ExpandableListGroups  {
 	/**
 	 * TODO loadListGroups
 	 * 	-> www.etud.insa-toulouse.fr/planex/api.php?PIPIKK=Pr0ut!
-	 * @author Proïd
+	 * @author Proï¿½d
 	 *
 	 */
 	public static abstract class OnGroupSelectedListener {

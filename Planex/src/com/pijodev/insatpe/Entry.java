@@ -148,8 +148,8 @@ public class Entry {
 	}
 	
 	static final String[] sday = {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"};
-	static final String[] smonth = {"Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"};
-	/** Returns a formated string containing the date looking like "Vendredi 21 Décembre 2012" **/
+	static final String[] smonth = {"Janvier", "Fï¿½vrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aoï¿½t", "Septembre", "Octobre", "Novembre", "Dï¿½cembre"};
+	/** Returns a formated string containing the date looking like "Vendredi 21 Dï¿½cembre 2012" **/
 	private String dateToString() {
 		if(date == 0)
 			return "";
@@ -173,7 +173,7 @@ public class Entry {
 		
 		//popupLayout.findViewById(R.id.tv_popup_class).setText(mClassName);
 		((TextView) popupLayout.findViewById(R.id.tv_popup_date)).setText("Date : " + dateToString());
-		((TextView) popupLayout.findViewById(R.id.tv_popup_hour)).setText("Durée : " + durationToString() + " (" + HourToString() + ")");
+		((TextView) popupLayout.findViewById(R.id.tv_popup_hour)).setText("Durï¿½e : " + durationToString() + " (" + HourToString() + ")");
 		((TextView) popupLayout.findViewById(R.id.tv_popup_room)).setText("Salle : " + mRoomName);
 		
 		// Show the static dialog
